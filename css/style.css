@@ -1,10 +1,49 @@
+/*
+font-family: 'Bebas Neue', cursive;
+font-family: 'Ubuntu', sans-serif;
+*/
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* Menu */
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.2rem;
+    padding-bottom: 0;
+}
 .navbar-brand img {
     width: 120px;
 }
+
+/* Main */
+body {
+    margin: 0;
+    padding: 0;
+}
+#Home {
+    background-image: url(../img/banner_mobile.jpg);
+    width: 100vw;
+    height: 100vh;
+}
+
+#Home h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: #9c0404;
+    margin-top: 5.125rem;
+}
+
+#Home p {
+    color: white;
+}
+
+
 

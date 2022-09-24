@@ -34,16 +34,16 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" aria-current="page" href="#Home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Itens</a>
+                    <a class="nav-link" href="#Itens">Itens</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link">Sobre Nós</a>
+                    <a class="nav-link" href="#">Sobre Nós</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link">Login</a>
+                    <a class="nav-link" href="#">Login</a>
                   </li>
                 </ul>
               </div>
@@ -51,16 +51,22 @@
           </nav>
     </header>
     <main>
-        <div class="banner-container-fluid" id="Home">
-            <div class="banner-row">
-              <div class="offset-3 col-6">
-                <h1>Potter Flix</h1>
-                <p> Confira todos os sucessos do mundo da mágia reunido aqui na Potter Flix. </p>
-                <button>Explorar</button>
+        <section id="Home">
+            <h1> Potter Flix</h1>
+            <p> A coletânia completa de todos os filmes do universo mágico de Harry Potter está aqui!</p>
+        </section>
+        <section id="Itens">
+            <h2>Itens</h2>
+            <div class="card" style="width: 18rem;">
+                <img src="./img/HP-1.jfif" class="card-img-top" alt="Harry Potter e a Pedra Filosofal">
+                <div class="card-body">
+                  <h5 class="card-title">Harry Potter e a Pedra Filosofal</h5>
+                  <p class="card-text">Onde tudo começou! Reviva o momento em que Harry descobre que é um bruxo. 100% nostalgia.</p>
+                  <a href="#" class="btn btn-primary">Assistir</a>
+                </div>
               </div>
-              <div class="col-4"> </div>
-            </div>
-          </div>
+        </section>
+
     </main>
     <footer></footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>

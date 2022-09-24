@@ -28,6 +28,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 #Home {
     background-image: url(../img/banner_mobile.jpg);
     width: 100vw;
@@ -43,6 +44,11 @@ body {
 
 #Home p {
     color: white;
+}
+
+#Home .botao01 {
+    color: #ffffff;
+
 }
 
 

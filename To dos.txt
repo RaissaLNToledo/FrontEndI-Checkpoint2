@@ -1,5 +1,8 @@
 APAGAR ANTES DE ENTREGAR!
 
-Menu - Alinhar nav a direita
+Instruções Checkpoint: https://docs.google.com/document/d/1nnGEWRf67PUU_6rZykVhJ-1G2aPuNkVwKzhztrht7LQ/edit?usp=sharing
+No link está tachado, aquilo que está check e destacado aquilo que é mais importante ser feito e que ainda não foi
 
-Home - Centralizar 
+Dificuldades:
+Menu - Alinhar nav a direita
+Home - Centralizar o texto verticalmente

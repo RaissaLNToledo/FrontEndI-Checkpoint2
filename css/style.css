@@ -58,7 +58,7 @@ body {
 
 @media only screen and (min-width: 800px) {
     #Home {
-        background-image: url(../img/banner_pc.jpg);
+        background-image: url(../img/banner_pc_2.jpg);
         background-position: center;
         width: 100vw;
         height: 100vh;

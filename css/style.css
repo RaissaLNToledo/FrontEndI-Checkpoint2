@@ -3,64 +3,130 @@ font-family: 'Bebas Neue', cursive;
 font-family: 'Ubuntu', sans-serif;
 */
 
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Ubuntu', sans-serif;
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+    font-family: 'Ubuntu', sans-serif;  
 }
-
-html {
+  
+html{
     scroll-behavior: smooth;
 }
-
-/* Menu */
-.navbar {
+  
+header{
+    background-color: rgba(184, 182, 182, 0.87);
     position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 0.2rem;
-    padding-bottom: 0;
+    z-index: 3;
+    width: 100%; 
+    position: fixed;
 }
-.navbar-brand img {
-    width: 120px;
+  
+.logo{
+    width: 100px;
 }
-
-/* Main */
-body {
-    margin: 0;
-    padding: 0;
-}
-
-#Home {
-    background-image: url(../img/banner_mobile_2.jpg);
-    width: 100vw;
-    height: 100vh;
+  
+.banner{
+    background-image:url(../img/Banner.jpg);
+    background-size:cover;
+    background-attachment:fixed;
     background-position: center;
+    height: 100vh;
+    align-items:center;
+    filter:brightness(0.80) opacity(0.90) ; 
 }
-
-#Home h1 {
+  
+.textHome{
+    z-index: 2;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    justify-content: center;
+    color: white;
+}
+  
+.textHome h1{
     font-family: 'Bebas Neue', cursive;
-    text-align: center;
     color: #9c0404;
-    margin-top: 5.125rem;
+    background-color: rgba(255, 255, 255, 0.2);
 }
-
-#Home p {
+  
+.tituloFilme{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: #9c0404;
+}
+  
+.row{
+    margin: 50px;
+}
+  
+.movie{
+    margin-top: 20px;
+    border-radius: 13px;
+    margin-bottom: 32px;
+    text-align: center;
+    padding: 30px;
+  
+}
+  
+.movie:hover{
+    transform: scale(1.2);
+}
+   
+.movie img{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+  
+.movie main{
+  background-color: antiquewhite;
+  border-radius: 13px;
+}
+  
+.movie main h1{
+    color: #9c0404;
+    font-family: 'Bebas Neue', cursive;
+}
+  
+.movie button{
+    width: 150px;
+    background-color: rgba(79, 228, 79, 0.836);
+  
+}
+  
+footer{
+    background-color: #3b3b3b;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+}
+  
+footer .row{
+    margin: 0px;
+    background-color: #3b3b3b;
+}
+  
+.row .integrantes{
+    padding: 10px;
+    margin-top: 20px;
     color: white;
 }
 
-#Home .botao-banner {
-    border-radius: 10px;
-    border-color: green ;
+.contato .row main h1{
+    font-family: 'Bebas Neue', cursive; 
 }
 
-@media only screen and (min-width: 800px) {
-    #Home {
-        background-image: url(../img/banner_pc_2.jpg);
-        background-position: center;
-        width: 100vw;
-        height: 100vh;
-    }    
+.link img{
+    width: 50px;
+}
+
+.row .Data p{
+    color: white
 }
